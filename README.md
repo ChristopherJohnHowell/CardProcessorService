@@ -27,3 +27,12 @@ CSV file with the columns in the order shown above. Entered data need only be st
 of the user session and does not need database persistence.
 
 The results should be presented on a web page.
+
+### API ENDPOINTS
+
+Available endpoings are as follows:
+
+- GET /api/card/test - For Connection testing
+- GET /api/card/      - For getting all stored Card objects
+- POST /api/card/      - Post a single Card into the system
+- POST /api/card/uploadCsv  - Upload an appropriately formatted CSV file to upload multiple Cards at once.
